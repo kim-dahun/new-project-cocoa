@@ -5,12 +5,14 @@
 
 /* Componets */
 @import "status-bar.css";
+@import "nav-bar.css";
 
 /* Screens */
 @import "login.css";
 
 body {
     font-family: 'Open Sans', sans-serif;
+height: 1000vh;
 }
 
 
