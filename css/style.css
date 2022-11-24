@@ -4,12 +4,14 @@
 @import "variables.css";
 
 /* Componets */
-@import "components/status-bar.css";
+@import "status-bar.css";
 
 /* Screens */
-@import "screens/login.css";
+@import "login.css";
 
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+
 
