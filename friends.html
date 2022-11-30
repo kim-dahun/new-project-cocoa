@@ -28,6 +28,59 @@
       <!--클래스명을 최대한 상세하게. 차후에 어떤 클래스인지 분간이 힘듦-->
     </div>
 
+    <header class="screen-header">
+      <h1 class="screen-header__title">friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link">
+      <i class="fa-solid fa-circle-info"></i> Friends' Names Display
+      <i class="fa-solid fa-chevron-right"></i>
+    </a>
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTswx58hWEvQP6YpUAeEg3oi3QPWnR4u5W4xA&usqp=CAU"
+            class="user-component__avatar"
+          />
+          <div class="user-componet__text">
+            <h4 class="user-component__title">Dahun</h4>
+            <!-- <h6 class="user-component__subtitle">none</h6> -->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fa-solid fa-chevron-up"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Facebook_Messenger_logo_2020.svg/220px-Facebook_Messenger_logo_2020.svg.png"
+              class="user-component__avatar-kakao"
+            />
+            <div class="user-componet__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Channel
+              </h4>
+              <!-- <h6 class="user-component__subtitle">none</h6> -->
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2 </span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
@@ -36,9 +89,9 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#"
-            >
-            <span class="nav__notification">1</span><i class="fa-sharp fa-solid fa-comment-sms fa-2x"></i
+          <a class="nav__link" href="#">
+            <span class="nav__notification">1</span
+            ><i class="fa-sharp fa-solid fa-comment-sms fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
@@ -48,7 +101,8 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="#"
-            ><span class="nav__notification"></span><i class="fa-sharp fa-solid fa-ellipsis fa-2x"></i
+            ><span class="nav__notification"></span
+            ><i class="fa-sharp fa-solid fa-ellipsis fa-2x"></i
           ></a>
         </li>
       </ul>
@@ -59,5 +113,3 @@
     ></script>
   </body>
 </html>
-
-<link rel="stylesheet" href="style.css" />
