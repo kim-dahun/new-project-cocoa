@@ -1,0 +1,136 @@
+<!--대부분의 웹사이트는 index.html 을 첫번째로 참조하도록 설정되어 있음-->
+<!--class 로 통일해서 쓰는 게 나음.-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This is More screens</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service </span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>70%</span>
+        <i class="fa-solid fa-battery-half"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+
+      <!--클래스명을 최대한 상세하게. 차후에 어떤 클래스인지 분간이 힘듦-->
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">More</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a></span>
+      <!--  <span class="badge"></span> -->
+      </div>
+    </header>
+
+
+    <main class="main-screen more-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTswx58hWEvQP6YpUAeEg3oi3QPWnR4u5W4xA&usqp=CAU"
+                class="user-component__avatar"
+              />
+              <div class="user-componet__text">
+                <h4 class="user-component__title">Dahun</h4>
+                <h6 class="user-component__subtitle">(+82) 010 1234 5678  <i class="fa-sharp fa-solid fa-circle-exclamation fa-lg"></i></h6>
+              </div>
+            </div>
+            <div class="user-component__column">
+                <i class="fa-solid fa-comment fa-2x"></i>
+            </div>
+          </div>
+
+          <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-calendar-days"></i><span>Calender</span></div>
+            <div class="icon-row__icon"><i class="fa-regular fa-address-book"></i><span>emoticons</span></div>
+            <div class="icon-row__icon"><i class="fa-sharp fa-solid fa-fingerprint"></i><span>Themes</span></div>
+            <div class="icon-row__icon"><i class="fa-regular fa-money-check-dollar"></i><span>Account</span></div>
+            
+        </div>
+
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-calendar-days"></i><span>Calender</span></div>
+            <div class="icon-row__icon"><i class="fa-regular fa-address-book"></i><span>emoticons</span></div>
+
+            </div>
+<div class="more-suggestion">
+    <h4 class="more-suggestion__title">Suggestions</h4>
+    <div class="more-suggestion__icons">
+        <div class="more-suggestion__icon">
+            <div class="more-suggestion__icon-image fa-3x">
+                <i class="fa-regular fa-calendar-days"></i>
+            </div>
+            <span class="more-suggestions__icon-text">KoKoa Story</span>
+        </div>
+        <div class="more-suggestion__icon">
+            <div class="more-suggestion__icon-image">
+                <i class="fa-regular fa-calendar-days fa-3x"></i>
+            </div>
+            <span class="more-suggestions__icon-text">KoKoa Friends</span>
+        </div>
+        <div class="more-suggestion__icon">
+            <div class="more-suggestion__icon-image">
+                <i class="fa-regular fa-calendar-days fa-3x"></i>
+            </div>
+            <span class="more-suggestions__icon-text">Friends Gem</span>
+        </div>
+
+    </div>
+
+
+    </div>
+
+
+    </div>
+
+</div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-regular fa-user fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chat.html">
+            <span class="nav__notification badge">1</span
+            ><i class="fa-sharp fa-solid fa-comment-sms fa-2x"></i
+                ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><span class="nav__notification badge"></span
+            ><i class="fa-sharp fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/95fe8a684c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

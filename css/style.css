@@ -10,10 +10,12 @@
 @import "user-component.css";
 @import "badge.css";
 @import "find.css";
+@import "icon-rows.css";
 /* Screens */
 
 @import "login.css";
 @import "friends.css";
+@import "more.css";
 
 body {
     color: #2e363e;

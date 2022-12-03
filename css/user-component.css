@@ -1,6 +1,7 @@
 .user-component{
     justify-content: space-between;
 
+
 }
 
 .user-component,
@@ -26,6 +27,7 @@
     margin-top: 8px;
     font-size: 17px;
     color: rgba(0, 0, 0, 0.5);
+    align-items: center;
 }
 
 .user-component__avatar-kakao{
@@ -56,3 +58,4 @@
     margin-bottom: 10px;
     display: block;
 }
+
