@@ -11,11 +11,14 @@
 @import "badge.css";
 @import "find.css";
 @import "icon-rows.css";
+@import "alt-screen-header.css";
 /* Screens */
 
 @import "login.css";
 @import "friends.css";
 @import "more.css";
+@import "settings.css";
+@import "chatroom.css";
 
 body {
     color: #2e363e;
