@@ -19,6 +19,7 @@
 @import "more.css";
 @import "settings.css";
 @import "chatroom.css";
+@import "no-mobile.css";
 
 body {
     color: #2e363e;
